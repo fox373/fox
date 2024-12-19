@@ -11,19 +11,12 @@ public class Person {
     private String telNum;
     private String address;
 
-    public Person() {
-    }
-
     public Person(String name, String age, String sex, String telNum, String address) {
         this.name = name;
         this.age = age;
         this.sex = sex;
         this.telNum = telNum;
         this.address = address;
-    }
-
-    public int getId() {
-        return id;
     }
 
     public void setId(int id) {

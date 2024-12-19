@@ -7,10 +7,9 @@ import java.util.Scanner;
  */
 public class TelNoteRegx {
     /**
-     * 对菜单项进行校验
      */
     public int  menuItemValidate (int min , int max){
-        //定义菜单项的正则表达式
+        //定义菜单项的正则表达式z
         String regex = "[1-9]";
         //创建键盘输入对象
         Scanner scanner = new Scanner(System.in);
